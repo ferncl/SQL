@@ -36,6 +36,10 @@ SELECT SUM(price)
 FROM superstore
 ;
 
+SELECT MAX(price), item_name
+FROM superstore
+;
+
 #Show a statistic about the price for items in the category of "Kitchen Supplies". 
 SELECT MAX(price), item_name, category
 FROM superstore
